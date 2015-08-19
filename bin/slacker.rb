@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#gG!/usr/bin/ruby
 
 # Load all environment variables from @bkeeper's "dotenv"
 require 'dotenv'
@@ -13,6 +13,9 @@ require_relative '../lib/plugins/timezone_plugin'
 require_relative '../lib/plugins/remember_plugin'
 require_relative '../lib/plugins/graphite/graphite_ensemble'
 require_relative '../lib/plugins/github/github_ensemble'
+require_relative '../lib/plugins/buildkite'
+require_relative '../lib/plugins/aws_maintenance'
+
 
 ["         __           __               ",
  "   _____/ /___ ______/ /_____  _____   ",
@@ -27,12 +30,14 @@ r = Slacker::Robot.new(ENV["NAME"])
 
 # Attach all the plugins
 r.plug(Slacker::Plugins::UtilPlugin.new)
-r.plug(Slacker::Plugins::JiraIntegration.new)
+#r.plug(Slacker::Plugins::JiraIntegration.new)
 r.plug(Slacker::Plugins::CoinFlipPlugin.new)
-r.plug(Slacker::Plugins::TimezonePlugin.new)
-r.plug(Slacker::Plugins::RememberPlugin.new)
-r.plug(Slacker::Plugins::GraphiteEnsemble.new)
-r.plug(Slacker::Plugins::GitHubEnsemble.new)
+r.plug(Slacker::Plugins::AwsMaintenancePlugin.new)
+r.plug(Slacker::Plugins::BuildKitePlugin.new)
+#r.plug(Slacker::Plugins::TimezonePlugin.new)
+#r.plug(Slacker::Plugins::RememberPlugin.new)
+#r.plug(Slacker::Plugins::GraphiteEnsemble.new)
+#r.plug(Slacker::Plugins::GitHubEnsemble.new)
 
 # Plug in the adapter and run
 r.attach(Slacker::Adapters::SlackAdapter.new(r))
