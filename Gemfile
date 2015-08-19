@@ -13,9 +13,13 @@ gem 'jiralicious'
 gem 'terminal-table'
 gem 'image_suckr'
 gem 's3'
+gem 'artii'
+gem 'aws-sdk'
+gem 'excon'
 
 group :test do
   gem 'rspec'
+  gem 'webmock'
 end
 
 gem 'timerizer'
