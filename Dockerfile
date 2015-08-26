@@ -10,5 +10,5 @@ RUN bundle install
 
 ADD . /srv/app/
 
-CMD ["/usr/local/bin/ruby /srv/app/bin/slacker.rb"]
+CMD ["./serve"]
 

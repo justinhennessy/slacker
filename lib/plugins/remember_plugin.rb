@@ -7,6 +7,7 @@ module Slacker
     class RememberPlugin < Plugin
       def ready(robot)
         robot.respond /remember (.*) is (.*)/i do |message, match|
+        raise robot.inpsect
           key, value = match[1], match[2]
           remember(key, value, robot)
 

@@ -6,6 +6,7 @@ module Slacker
     class BuildKitePlugin < Plugin
       def ready(robot)
         robot.respond /(show|list|trigger) build/i do |message|
+          puts "I am in buildkite"
           message << buildkite(message.text)
         end
       end
@@ -27,7 +28,7 @@ module Slacker
 
       def list_builds(project)
         result = Excon.get("https://api.buildkite.com/v1/organizations/everyday-hero/projects/#{project}/builds/", :headers => {'Authorization' => "Bearer #{ENV.fetch('BUILDKITE_API_TOKEN')}"})
-        output = "---\n"
+        output = '```'
 
         JSON.parse(result.body).take(5).each do |build|
           output << "#{build["number"]}:\n"
@@ -36,6 +37,7 @@ module Slacker
           end
           output << "\n"
         end
+        output << '```'
         output
       end
 

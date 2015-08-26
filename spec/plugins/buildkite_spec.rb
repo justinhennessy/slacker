@@ -10,8 +10,8 @@ describe Slacker::Plugins::BuildKitePlugin do
 
   it "response to list builds" do
     message = construct_message("#{bot_name} list build nginx")
-    response = JSON.parse(@robot.hear(message).response.first)
-    expect(response.first["number"]).to eq(38)
+    response = @robot.hear(message).response
+    expect(response).to match(/.*Deploy to Staging - passed.*/)
   end
 
   it "responds to show build" do

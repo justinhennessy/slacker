@@ -16,6 +16,7 @@ gem 's3'
 gem 'artii'
 gem 'aws-sdk'
 gem 'excon'
+gem 'timecop'
 
 group :test do
   gem 'rspec'
