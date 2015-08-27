@@ -15,6 +15,7 @@ require_relative '../lib/plugins/graphite/graphite_ensemble'
 require_relative '../lib/plugins/github/github_ensemble'
 require_relative '../lib/plugins/buildkite'
 require_relative '../lib/plugins/aws_maintenance'
+require_relative '../lib/sendlog'
 
 
 ["         __           __               ",
@@ -26,8 +27,10 @@ require_relative '../lib/plugins/aws_maintenance'
   puts segment.green
 end
 
+
 r = Slacker::Robot.new(ENV["NAME"])
 
+SendLog.log.info "Loading plugins ..."
 # Attach all the plugins
 r.plug(Slacker::Plugins::UtilPlugin.new)
 #r.plug(Slacker::Plugins::JiraIntegration.new)
@@ -38,6 +41,8 @@ r.plug(Slacker::Plugins::BuildKitePlugin.new)
 r.plug(Slacker::Plugins::RememberPlugin.new)
 #r.plug(Slacker::Plugins::GraphiteEnsemble.new)
 #r.plug(Slacker::Plugins::GitHubEnsemble.new)
+SendLog.log.info "Loaded plugins!"
 
+SendLog.log.info "Launching ..."
 # Plug in the adapter and run
 r.attach(Slacker::Adapters::SlackAdapter.new(r))

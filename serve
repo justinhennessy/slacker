@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ruby bin/slacker.rb
+ruby bin/slacker.rb 2>&1
 

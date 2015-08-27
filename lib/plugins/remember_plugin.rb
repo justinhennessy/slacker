@@ -6,8 +6,9 @@ module Slacker
   module Plugins
     class RememberPlugin < Plugin
       def ready(robot)
+        SendLog.log.info "Just entered remember plugin ready method!"
         robot.respond /remember (.*) is (.*)/i do |message, match|
-        raise robot.inpsect
+          SendLog.log.info "Entered remember match! message: #{message} and match: #{match}"
           key, value = match[1], match[2]
           remember(key, value, robot)
 
@@ -48,20 +49,37 @@ module Slacker
       end
 
       def remember(key, value, robot)
-        robot.redis.set(make_key(key), value)
+        SendLog.log.info "Im about to set! key: #{key} value: #{value}"
+        begin
+          robot.redis.set(make_key(key), value)
+        rescue Exception => e
+          SendLog.log.error e.inspect
+          SendLog.log.error e.message
+        end
       end
 
       def forget(key, robot)
-        robot.redis.del(make_key(key))
+        SendLog.log.info "Im about to delete! key: #{key}"
+        catch_errors robot.redis.del(make_key(key))
       end
 
       def recall(key, robot)
-        robot.redis.get(make_key(key))
+        SendLog.log.info "Im about to get! key: #{key}"
+        catch_errors robot.redis.get(make_key(key))
       end
 
       private
       def make_key(key)
         "memory:#{key}".downcase
+      end
+
+      def catch_errors(function)
+        begin
+          function
+        rescue Exception => e
+          SendLog.log.error e.inspect
+          SendLog.log.error e.message
+        end
       end
     end
   end

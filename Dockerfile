@@ -9,6 +9,7 @@ ADD Gemfile Gemfile.lock /srv/app/
 RUN bundle install
 
 ADD . /srv/app/
+RUN ln -sf /dev/stdout /srv/app/application.log
 
 CMD ["./serve"]
 
