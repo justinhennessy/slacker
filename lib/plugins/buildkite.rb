@@ -31,7 +31,7 @@ module Slacker
         result = Excon.get("https://api.buildkite.com/v1/organizations/everyday-hero/projects/#{project}/builds/", :headers => {'Authorization' => "Bearer #{ENV.fetch('BUILDKITE_API_TOKEN')}"})
         output = '```'
 
-        JSON.parse(result.body).take(5).each do |build|
+        JSON.parse(result.body).take(1).each do |build|
           output << "#{build["number"]}:\n"
           build["jobs"].each do |job|
             output << "#{job["name"]} - #{job["state"]}\n" if job["type"] == "script"

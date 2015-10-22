@@ -15,6 +15,7 @@ require_relative '../lib/plugins/graphite/graphite_ensemble'
 require_relative '../lib/plugins/github/github_ensemble'
 require_relative '../lib/plugins/buildkite'
 require_relative '../lib/plugins/aws_maintenance'
+require_relative '../lib/plugins/pagerduty'
 require_relative '../lib/sendlog'
 
 
@@ -37,6 +38,7 @@ r.plug(Slacker::Plugins::UtilPlugin.new)
 r.plug(Slacker::Plugins::CoinFlipPlugin.new)
 r.plug(Slacker::Plugins::AwsMaintenancePlugin.new)
 r.plug(Slacker::Plugins::BuildKitePlugin.new)
+r.plug(Slacker::Plugins::PagerDutyPlugin.new)
 #r.plug(Slacker::Plugins::TimezonePlugin.new)
 r.plug(Slacker::Plugins::RememberPlugin.new)
 #r.plug(Slacker::Plugins::GraphiteEnsemble.new)
