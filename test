@@ -1,0 +1,1032 @@
+[
+  {
+    "id": "43303",
+    "timestamp": "1456872730",
+    "datetime": "2016-03-01 22:52:10",
+    "member": {
+      "username": "davo",
+      "realname": "David Oliver",
+      "profile_img": "https://avatars.slack-edge.com/2015-10-21/12919473415_0fe8658b2089abe353c8_48.jpg"
+    },
+    "channel": "sysops",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "glusterfs setup / learning\nassisted with telstra setup\nmarketing docs"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "glusterfs \nend of month reporting\nbau requests"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "nothing"
+      }
+    ]
+  },
+  {
+    "id": "43298",
+    "timestamp": "1456872006",
+    "datetime": "2016-03-01 22:40:05",
+    "member": {
+      "username": "justinhennessy",
+      "realname": "Justin Hennessy",
+      "profile_img": "https://avatars.slack-edge.com/2016-01-04/17663932309_99a92dbe9574396d18e1_48.jpg"
+    },
+    "channel": "sysops",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "- Almost completed the deployment section of the strategy document (1 of 3 sections)"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "- Finalise the draft of the deployment section and submit for some feedback, then start on the infrastructure section\n- Meet with Murray and see if I can make some progress on the CORE team deployment work"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "Done"
+      }
+    ]
+  },
+  {
+    "id": "41362",
+    "timestamp": "1456788760",
+    "datetime": "2016-02-29 23:32:40",
+    "member": {
+      "username": "kesselle.w",
+      "realname": "Kesselle[136]\"The Vegetable\"",
+      "profile_img": "https://avatars.slack-edge.com/2015-07-28/8273899749_8fc131066b4c2e6e2580_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "Churned through some emails, did up a key for the pipedrive format, was a tired slug"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "get the remainder of emails sorted, training session, have frizzy hair."
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "Nothing at all"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "Afterpay things that Marc is helping me implement, nothing else."
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "who knows!"
+      }
+    ]
+  },
+  {
+    "id": "41354",
+    "timestamp": "1456787560",
+    "datetime": "2016-02-29 23:12:40",
+    "member": {
+      "username": "daniel",
+      "realname": "Daniel",
+      "profile_img": "https://avatars.slack-edge.com/2015-07-31/8474184368_15ec26ad55885404943b_48.jpg"
+    },
+    "channel": "sysops",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "- Check and deploy puppet code for CORE-1783\n- AWS meet\n- Order more office365 licenses\n- Chase up computer alliance order\n- Chase up ACT computer order"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "- investigate why database module is not provisioning _sphinx cron SNA-745\n- |_  provision 2 dedicated servers\n- look into printer issues in accounts area\n- setup 8 pc's for sales"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "time"
+      }
+    ]
+  },
+  {
+    "id": "41351",
+    "timestamp": "1456787358",
+    "datetime": "2016-02-29 23:09:18",
+    "member": {
+      "username": "davo",
+      "realname": "David Oliver",
+      "profile_img": "https://avatars.slack-edge.com/2015-10-21/12919473415_0fe8658b2089abe353c8_48.jpg"
+    },
+    "channel": "sysops",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "- Set up GlusterFS\n- AWS Meet / Greet\n- POS-PAT environment"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "- Marketing security documentation\n- GlusterFS testing \n- Assist setup for Telstra-funded sales staff\n- Begin investigations for PHP7 in ecommerce production"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "- AWS limits re devices"
+      }
+    ]
+  },
+  {
+    "id": "41350",
+    "timestamp": "1456787303",
+    "datetime": "2016-02-29 23:08:23",
+    "member": {
+      "username": "marc",
+      "realname": "Marc - [105]",
+      "profile_img": "https://avatars.slack-edge.com/2015-10-22/12980635858_80dac56575fb1c5c0f60_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "- Swamp Review Migration\n- Completed KW Autoparts Migration\n- Bluepod meeting and agenda for migration\n- Other shit I don't remember"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "- Train Kessy how to setup afterpay\n- Third Gear Data Migration\n- Pavalyn Data Migration\n- Dungeon Crawl Data feed\n- eBay description template formatting\n- Go through API questions sales have piled on me"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "- Interruptions\n- Support calls"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "Someone to please chase old mate #167486 up"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "I am no more humble than my talents require"
+      }
+    ]
+  },
+  {
+    "id": "41349",
+    "timestamp": "1456787244",
+    "datetime": "2016-02-29 23:07:24",
+    "member": {
+      "username": "justinhennessy",
+      "realname": "Justin Hennessy",
+      "profile_img": "https://avatars.slack-edge.com/2016-01-04/17663932309_99a92dbe9574396d18e1_48.jpg"
+    },
+    "channel": "sysops",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "- started work on the automation strategy document\n- met with AWS"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "- automation strategy document"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "- BAU requests"
+      }
+    ]
+  },
+  {
+    "id": "41348",
+    "timestamp": "1456787069",
+    "datetime": "2016-02-29 23:04:29",
+    "member": {
+      "username": "sabin",
+      "realname": "Sabin Dongol",
+      "profile_img": "https://avatars.slack-edge.com/2015-11-16/14618845989_f94666dfe5c809e78b9a_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "Completed Nappy's data migration. Started ergonomics migration."
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "Try to complete ergonomics migration. Re-import images for Ozquilts, Fix urls in Bowden"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "nothing"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "Just the database request follow up for the Taylor Hill Scarves and Dickers Garden"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "Nothing special"
+      }
+    ]
+  },
+  {
+    "id": "41346",
+    "timestamp": "1456787006",
+    "datetime": "2016-02-29 23:03:26",
+    "member": {
+      "username": "jesserussell",
+      "realname": "Jesselle R ジェシー・ラッセル (129)",
+      "profile_img": "https://avatars.slack-edge.com/2016-02-29/23459530695_75b1fddc3d845c36dced_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "Completed some professional services, including our first Telstra Channel Professional Service! :smile:"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "I'll be working through more Professional Services."
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "Nothing at this stage. Working fine."
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "Nope!"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "I spent some time learning the new format Couriers Please sends through their data."
+      }
+    ]
+  },
+  {
+    "id": "41340",
+    "timestamp": "1456786891",
+    "datetime": "2016-02-29 23:01:31",
+    "member": {
+      "username": "jessechelin",
+      "realname": "Je Je sse",
+      "profile_img": "https://avatars.slack-edge.com/2016-01-25/19311037863_59f53220e42e7b1d9b87_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "1. Neto U updates\n2. Spotzer training"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "1. Neto-U updates\n2. Spotzer training"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "nothing"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "Nope"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "Don't do awakeness promotion drugs on an empty stomach, you will get sick"
+      }
+    ]
+  },
+  {
+    "id": "39578",
+    "timestamp": "1456706958",
+    "datetime": "2016-02-29 00:49:18",
+    "member": {
+      "username": "kesselle.w",
+      "realname": "Kesselle[136]\"The Vegetable\"",
+      "profile_img": "https://avatars.slack-edge.com/2015-07-28/8273899749_8fc131066b4c2e6e2580_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "I got a fuck tonne of my stuff packed. And then watched some ru paul :3"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "tracking feed set up, finalize some emails and macros, try not to fall asleep."
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "i'm really fucking tired. as anyone with eyes can see haha."
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "No not really!"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "i learned that regardless of how much you minimise your life, you still have too much crap. #movinglief"
+      }
+    ]
+  },
+  {
+    "id": "39569",
+    "timestamp": "1456703366",
+    "datetime": "2016-02-28 23:49:26",
+    "member": {
+      "username": "daniel",
+      "realname": "Daniel",
+      "profile_img": "https://avatars.slack-edge.com/2015-07-31/8474184368_15ec26ad55885404943b_48.jpg"
+    },
+    "channel": "sysops",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "none of your bsns"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "- check and deploy puppet code for CORE-1783\n- investigate why database module is not provisioning _sphinx cron SNA-745\n- |_  provision 2 dedicated servers\n- AWS meet\n- Order more office365 licenses\n- Chase up computer alliance order\n- Chase up ACT computer order"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "."
+      }
+    ]
+  },
+  {
+    "id": "39567",
+    "timestamp": "1456702715",
+    "datetime": "2016-02-28 23:38:35",
+    "member": {
+      "username": "justinhennessy",
+      "realname": "Justin Hennessy",
+      "profile_img": "https://avatars.slack-edge.com/2016-01-04/17663932309_99a92dbe9574396d18e1_48.jpg"
+    },
+    "channel": "sysops",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "Went through unit cleaning hell but came out the outside in 1 piece. :simple_smile:"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "- solely working on the strategy document for Philipp as it is suppose to be due tomorrow. :disappointed: A likely long day ahead of me.\n- meeting with the Core team to discuss DB migrations in the new world order in conjunction with the new deployment process\n- AWS meet and greet"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "Interruption so have made no progress on the strategy document, will need to defer anything non urgent until that is done."
+      }
+    ]
+  },
+  {
+    "id": "39566",
+    "timestamp": "1456702643",
+    "datetime": "2016-02-28 23:37:23",
+    "member": {
+      "username": "davo",
+      "realname": "David Oliver",
+      "profile_img": "https://avatars.slack-edge.com/2015-10-21/12919473415_0fe8658b2089abe353c8_48.jpg"
+    },
+    "channel": "sysops",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "nothing"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "POS demo / Glusterfs trial"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "lack of time"
+      }
+    ]
+  },
+  {
+    "id": "39558",
+    "timestamp": "1456701193",
+    "datetime": "2016-02-28 23:13:13",
+    "member": {
+      "username": "andi",
+      "realname": "Andi Stewart [124] sits next to Kessy",
+      "profile_img": "https://avatars.slack-edge.com/2015-11-06/14008343552_6ae828a0ea31a7d46ffa_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "Meal prep"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "eat the food I made yesterday, work on getting more sites live"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "nothing"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "nothing"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "Where the timer is on my stove"
+      }
+    ]
+  },
+  {
+    "id": "39556",
+    "timestamp": "1456701002",
+    "datetime": "2016-02-28 23:10:01",
+    "member": {
+      "username": "jessechelin",
+      "realname": "Je Je sse",
+      "profile_img": "https://avatars.slack-edge.com/2016-01-25/19311037863_59f53220e42e7b1d9b87_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "login"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "nothing"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "nothing"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "nothing"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "nothing"
+      }
+    ]
+  },
+  {
+    "id": "39554",
+    "timestamp": "1456700859",
+    "datetime": "2016-02-28 23:07:39",
+    "member": {
+      "username": "marc",
+      "realname": "Marc - [105]",
+      "profile_img": "https://avatars.slack-edge.com/2015-10-22/12980635858_80dac56575fb1c5c0f60_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "I survived"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "- Swamp Review Migration\n- eBay description cleanse for @david \n- Data Migration for ThirdGear\n- Data Migration for KW Autoparts\n- Meeting for bluepod migration"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "Same old"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "nothing"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "nothing"
+      }
+    ]
+  },
+  {
+    "id": "39553",
+    "timestamp": "1456700845",
+    "datetime": "2016-02-28 23:07:24",
+    "member": {
+      "username": "rom",
+      "realname": "Rom (135)",
+      "profile_img": "https://avatars.slack-edge.com/2015-11-09/14141910963_815b71eab9c96adf8239_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "Must needed rest."
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "Onboarding calls - Try to get that go live number rounded,"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "Reaching customer"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "not at this point"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "The power of a gift."
+      }
+    ]
+  },
+  {
+    "id": "39551",
+    "timestamp": "1456700700",
+    "datetime": "2016-02-28 23:04:59",
+    "member": {
+      "username": "sabin",
+      "realname": "Sabin Dongol",
+      "profile_img": "https://avatars.slack-edge.com/2015-11-16/14618845989_f94666dfe5c809e78b9a_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "Tested to scrap the site, lasculpte. Worked on dalby health."
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "Try to complete nappy migration. start new one"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "nothing"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "Not at the moment"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "Advanced Search in Neto."
+      }
+    ]
+  },
+  {
+    "id": "39549",
+    "timestamp": "1456700609",
+    "datetime": "2016-02-28 23:03:29",
+    "member": {
+      "username": "jesserussell",
+      "realname": "Jesselle R ジェシー・ラッセル (129)",
+      "profile_img": "https://avatars.slack-edge.com/2016-02-29/23459530695_75b1fddc3d845c36dced_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "Attended the Small Business Expo. Didn't realise that the title was meant to read The *Small* Business Expo as there were not many people there!"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "I'll be working on some tickets to get that profesh services queue down!"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "Nothing at this stage"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "Nope!"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "I learnt that people really like those damn ebay phone chargers. Like seriously, I saw one guy come back for at least 5-6 of them..."
+      }
+    ]
+  },
+  {
+    "id": "39548",
+    "timestamp": "1456700566",
+    "datetime": "2016-02-28 23:02:46",
+    "member": {
+      "username": "bec",
+      "realname": "Bec (121)",
+      "profile_img": "https://avatars.slack-edge.com/2016-02-12/21083636577_1445bd3adf4aa2494d80_48.jpg"
+    },
+    "channel": "accounts",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "5ca2a5",
+        "answer": "Sleeeeeeeeeeep."
+      },
+      {
+        "question": "What will you do today?",
+        "color": "305283",
+        "answer": "Bulk shit. \nCalling customers and cancelling accounts :facepunch:"
+      },
+      {
+        "question": "Open complaints/disputes",
+        "color": "ea9c9c",
+        "answer": "*Rock Hard* - eBay and product set up\n*Resto Country* - design\n*Hampdon* - Product Data Setup\n*Designer Bums* - software bugs\n*Options 8* - Payment gateways and length of project\n*Pakenham Western Wear* - Wants full refund for 'bad service'\n*Atlantis Music* - import process errors affecting eBay. Credit processed!\n*Innox* - Xero integration still not fixed after more than 3 months"
+      }
+    ]
+  },
+  {
+    "id": "37831",
+    "timestamp": "1456457527",
+    "datetime": "2016-02-26 03:32:07",
+    "member": {
+      "username": "kesselle.w",
+      "realname": "Kesselle[136]\"The Vegetable\"",
+      "profile_img": "https://avatars.slack-edge.com/2015-07-28/8273899749_8fc131066b4c2e6e2580_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "We got Intercom really started up, regular follow ups and catching up on emails. Intercom I'm really excited about"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "clear out tickets in preparation for the new week, respond to intercom chat as quickly as possible, finish off email and intercom macro by this evening"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "migraine :&lt;"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "yes, i need to push this one 175212 he wants a tracking feed setup, easy as fuck, hes paying for it (gotta put through an invoice) but i dont have the time. :confused: its the only thing holding him back from live, and i want to get him over the line for monday."
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "that according to Chelin I should be wearing a hijab"
+      }
+    ]
+  },
+  {
+    "id": "37681",
+    "timestamp": "1456444031",
+    "datetime": "2016-02-25 23:47:11",
+    "member": {
+      "username": "brendan",
+      "realname": "Brendan [126]",
+      "profile_img": "https://secure.gravatar.com/avatar/6608c4a55128486e9c09011d78839262.jpg?s=48&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F66f9%2Fimg%2Favatars%2Fava_0012-48.png"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "Onboarding and 3 sites live:\nhttp://chefuniforms.com.au\nhttp://wooot.com.au\nhttp://caravanrvcamping.com.au\n47 for the month so far..."
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "Arrange some go lives for Monday and more onboarding stuff"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "Why does everyone want to change their domain name?"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "I'm good"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "Lots of stuff about onboarding and to never leave my earphones at work again."
+      }
+    ]
+  },
+  {
+    "id": "37669",
+    "timestamp": "1456442786",
+    "datetime": "2016-02-25 23:26:25",
+    "member": {
+      "username": "rom",
+      "realname": "Rom (135)",
+      "profile_img": "https://avatars.slack-edge.com/2015-11-09/14141910963_815b71eab9c96adf8239_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "A lot - RVcamping gone live yay!"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "Staging site calls"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "nothing"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "Shipping for Brazilian Beauty for  @jesserussell transfer"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "Intercom - Temando Payment type"
+      }
+    ]
+  },
+  {
+    "id": "37666",
+    "timestamp": "1456442405",
+    "datetime": "2016-02-25 23:20:04",
+    "member": {
+      "username": "jessechelin",
+      "realname": "Je Je sse",
+      "profile_img": "https://avatars.slack-edge.com/2016-01-25/19311037863_59f53220e42e7b1d9b87_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "1. Created a new form for the Sales and On Boarding team that allows them to quickly and easily assign an account manager to a customers card in the Neto Control Panel.\n2. Launched Intercom chat for Staging customers. Completed all the rules to direct messages across the teams.\n3. Sent out an in app message to Staging customers notifying them about the new interactive live chat option available to them in their Neto Control Panel\n4. Helped Ryan Durjich with some Saasu issues and some Australia Post issues he was having"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "Neto U refinements and Neto U LMS testing"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "nothing"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "nothing"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "Intercom is amazing"
+      }
+    ]
+  },
+  {
+    "id": "37664",
+    "timestamp": "1456442294",
+    "datetime": "2016-02-25 23:18:14",
+    "member": {
+      "username": "sabin",
+      "realname": "Sabin Dongol",
+      "profile_img": "https://avatars.slack-edge.com/2015-11-16/14618845989_f94666dfe5c809e78b9a_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "Worked on Nappy Palace migration,  Dalby data fixes, ozQuilts image import"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "Finalize Bowden and Ozquilts, continue Nappy Palace migration."
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "nothing"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "Not at the moment"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "Disount, AND and OR logic in discounts"
+      }
+    ]
+  },
+  {
+    "id": "37663",
+    "timestamp": "1456442260",
+    "datetime": "2016-02-25 23:17:39",
+    "member": {
+      "username": "marc",
+      "realname": "Marc - [105]",
+      "profile_img": "https://avatars.slack-edge.com/2015-10-22/12980635858_80dac56575fb1c5c0f60_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "What didn't I accomplish yesterday?"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "What won't I do today?"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "Geekbot"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "Nope"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "We got the shittest TV in the office"
+      }
+    ]
+  },
+  {
+    "id": "37662",
+    "timestamp": "1456442217",
+    "datetime": "2016-02-25 23:16:57",
+    "member": {
+      "username": "hayley",
+      "realname": "Harley (128)",
+      "profile_img": "https://avatars.slack-edge.com/2015-09-30/11595336132_0cb6fb0636f27c9bc31f_48.jpg"
+    },
+    "channel": "accounts",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "5ca2a5",
+        "answer": "Tickets, Standing Order, plus some other smaller things"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "305283",
+        "answer": "Tickets, Design Tickets, Standing Order"
+      },
+      {
+        "question": "Open complaints/disputes",
+        "color": "ea9c9c",
+        "answer": "No disputes as such just a couple of credit requests\nWildearth\nGears N Goggles\nPitt Water"
+      }
+    ]
+  },
+  {
+    "id": "37657",
+    "timestamp": "1456442097",
+    "datetime": "2016-02-25 23:14:56",
+    "member": {
+      "username": "jesserussell",
+      "realname": "Jesselle R ジェシー・ラッセル (129)",
+      "profile_img": "https://avatars.slack-edge.com/2016-02-29/23459530695_75b1fddc3d845c36dced_48.jpg"
+    },
+    "channel": "onboardingteam",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "c0dadb",
+        "answer": "I trained up Aaron in some more shipping stuff, including Smart Send and eParcel etc."
+      },
+      {
+        "question": "What will you do today?",
+        "color": "839bbd",
+        "answer": "I'll be catching up on some tickets due to the training. I'll be working on New Town Toyota, looking to finish it by lunch time or so"
+      },
+      {
+        "question": "What obstacles are impeding your progress?",
+        "color": "e59797",
+        "answer": "Lack of sleep"
+      },
+      {
+        "question": "Are there any Tickets or Customers that you need help with?",
+        "color": "c34646",
+        "answer": "Nope"
+      },
+      {
+        "question": "What did you learn yesterday?",
+        "color": "b6b6b6",
+        "answer": "I learnt that our TV in this room keeps on crashing when it probs shouldn't. That's pretty shit hey @marc. I get the TV a 10/10 in being shit."
+      }
+    ]
+  },
+  {
+    "id": "37649",
+    "timestamp": "1456441349",
+    "datetime": "2016-02-25 23:02:29",
+    "member": {
+      "username": "bec",
+      "realname": "Bec (121)",
+      "profile_img": "https://avatars.slack-edge.com/2016-02-12/21083636577_1445bd3adf4aa2494d80_48.jpg"
+    },
+    "channel": "accounts",
+    "questions": [
+      {
+        "question": "What did you accomplish yesterday?",
+        "color": "5ca2a5",
+        "answer": "Aged Receivables\nLots of other shit"
+      },
+      {
+        "question": "What will you do today?",
+        "color": "305283",
+        "answer": "Aged Receivables\nDisputes - yay!\nAccounts Processes\nZapier stuff"
+      },
+      {
+        "question": "Open complaints/disputes",
+        "color": "ea9c9c",
+        "answer": "*Rock Hard* - eBay and product set up\n*Resto Country* - design\n*Hampdon* - Product Data Setup\n*Designer Bums* - software bugs\n*Options 8* - Payment gateways and length of project\n*Pakenham Western Wear* - Wants full refund for 'bad service'\n*Atlantis Music* - import process errors affecting eBay. Credit processed!\n*Innox* - Xero integration still not fixed after more than 3 months"
+      }
+    ]
+  }
+]
