@@ -1,8 +1,8 @@
 #!/usr/bin/ruby
 
 # Load all environment variables from @bkeeper's "dotenv"
-#require 'dotenv'
-#Dotenv.load
+require 'dotenv'
+Dotenv.load
 
 require_relative '../lib/robot'
 require_relative '../lib/adapters/slack/slack_adapter'

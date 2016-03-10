@@ -11,5 +11,8 @@ RUN bundle install
 ADD . /srv/app/
 RUN ln -sf /dev/stdout /srv/app/application.log
 
+#RUN mkdir ~/.docker
+ADD .docker/config.json ~/.docker
+
 CMD ["./serve"]
 
