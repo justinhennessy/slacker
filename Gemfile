@@ -18,10 +18,4 @@ gem 'artii'
 gem 'aws-sdk'
 gem 'excon'
 gem 'timecop'
-
-group :test do
-  gem 'rspec'
-  gem 'webmock'
-end
-
 gem 'timerizer'
