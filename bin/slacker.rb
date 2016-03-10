@@ -1,4 +1,4 @@
-#gG!/usr/bin/ruby
+#!/usr/bin/ruby
 
 # Load all environment variables from @bkeeper's "dotenv"
 #require 'dotenv'
