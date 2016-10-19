@@ -17,7 +17,6 @@ GEM
       aws-sdk-core (= 2.2.25)
     colorize (0.7.7)
     crack (0.1.8)
-    diff-lcs (1.2.5)
     dotenv (2.1.0)
     eventmachine (1.0.9.1)
     excon (0.48.0)
@@ -52,19 +51,6 @@ GEM
     redis (3.2.2)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
-    rspec (3.4.0)
-      rspec-core (~> 3.4.0)
-      rspec-expectations (~> 3.4.0)
-      rspec-mocks (~> 3.4.0)
-    rspec-core (3.4.4)
-      rspec-support (~> 3.4.0)
-    rspec-expectations (3.4.0)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-mocks (3.4.1)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-support (3.4.1)
     s3 (0.3.24)
       proxies (~> 0.2.0)
     sawyer (0.7.0)
@@ -76,9 +62,6 @@ GEM
     timerizer (0.1.4)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    webmock (1.9.0)
-      addressable (>= 2.2.7)
-      crack (>= 0.1.7)
     websocket (1.2.2)
     websocket-eventmachine-base (1.2.0)
       eventmachine (~> 1.0)
@@ -106,12 +89,10 @@ DEPENDENCIES
   rake
   redis
   redis-namespace
-  rspec
   s3
   terminal-table
   timecop
   timerizer
-  webmock
   websocket-eventmachine-client
 
 BUNDLED WITH
