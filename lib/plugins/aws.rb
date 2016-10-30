@@ -35,7 +35,7 @@ module Slacker
         output = "```"
 
         instances.each { |instance|
-          output = "#{instance.instance_id} (#{instance.availability_zone})"
+          output << "#{instance.instance_id} (#{instance.availability_zone})"
           instance.events.each { |event|
             output << "\n  #{event.code}: #{event.description} (not_before: #{event.not_before}, not_after: #{event.not_after})"
           }
