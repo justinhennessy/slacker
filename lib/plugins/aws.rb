@@ -21,7 +21,7 @@ module Slacker
       end
 
       def show_events
-        ec2_client = Aws::EC2::Client.new
+        SendLog.log.info "Inside show_events"
         result = output_events
         result.body
       end
@@ -29,6 +29,7 @@ module Slacker
       private
 
       def output_events
+        ec2_client = Aws::EC2::Client.new
         instances = instances_with_events
 
         output = ""
@@ -39,6 +40,7 @@ module Slacker
             output << "\n  #{event.code}: #{event.description} (not_before: #{event.not_before}, not_after: #{event.not_after})"
           }
         }
+        output
       end
 
       def instances_with_events
