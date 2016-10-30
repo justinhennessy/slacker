@@ -5,6 +5,7 @@ module Slacker
     class AWSPlugin < Plugin
       def ready(robot)
         SendLog.log.info "inside ready"
+        Sendlog.log.info "rr: #{robot.respond.inspect}"
         robot.respond /(show events)/i do |message|
           message << aws(message.text)
         end
