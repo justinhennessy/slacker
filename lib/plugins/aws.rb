@@ -31,7 +31,6 @@ module Slacker
       private
 
       def output_events
-        ec2_client = Aws::EC2::Client.new
         instances = instances_with_events
 
         output = ""
@@ -46,7 +45,8 @@ module Slacker
       end
 
       def instances_with_events
-        instances_status = @ec2_client.describe_instance_status
+        ec2_client = Aws::EC2::Client.new
+        instances_status = ec2_client.describe_instance_status
 
         instances_status.instance_statuses.select { |instance|
           !instance.events.empty?
