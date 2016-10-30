@@ -4,12 +4,14 @@ module Slacker
   module Plugins
     class AWSPlugin < Plugin
       def ready(robot)
+        SendLog.log.info "inside ready"
         robot.respond /show events/i do |message|
           message << aws(message.text)
         end
       end
 
       def aws(text)
+        SendLog.log.info "inside aws"
         #action, build, project, build_number = text.split(" ")
 
         case text
