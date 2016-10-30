@@ -24,8 +24,7 @@ module Slacker
 
       def show_events
         SendLog.log.info "Inside show_events"
-        result = output_events
-        result.body
+        output_events
       end
 
       private
