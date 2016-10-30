@@ -39,6 +39,7 @@ SendLog.log.info "Loading plugins ..."
 r.plug(Slacker::Plugins::CoinFlipPlugin.new)
 #r.plug(Slacker::Plugins::AwsMaintenancePlugin.new)
 r.plug(Slacker::Plugins::BuildKitePlugin.new)
+r.plug(Slacker::Plugins::AWSPlugin.new)
 #r.plug(Slacker::Plugins::PagerDutyPlugin.new)
 #r.plug(Slacker::Plugins::TimezonePlugin.new)
 #r.plug(Slacker::Plugins::RememberPlugin.new)
