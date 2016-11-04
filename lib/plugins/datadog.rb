@@ -22,15 +22,16 @@ module Slacker
         api_key = ENV.fetch('DATADOG_API_KEY')
         application_key = ENV.fetch('DATADOG_APPLICATION_KEY')
 
+        SendLog.log.info "Setting up datadog api object"
         dog = Dogapi::Client.new(api_key, application_key)
 
         # Get points from the last hour
         from = Time.now - 600
         to = Time.now
         query = 'neto.infrastructure.free_trial.count{*}by{host}'
-        test = dog.get_points(query, from, to)
+        free_trial_metrics = dog.get_points(query, from, to)
 
-        series = test[1]['series'].first
+        series = free_trial_metrics[1]['series'].first
 
         total_free_trials = series['pointlist'].last.last
         SendLog.log.info "Total free trials: #{total_free_trials}"
