@@ -32,15 +32,19 @@ module Slacker
       def output_events
         instances = instances_with_events
 
-        output = "```"
+        if instances.empty?
+          output = "There are no scheduled events"
+        else
+          output = "```"
 
-        instances.each { |instance|
-          output << "#{instance.instance_id} (#{instance.availability_zone})"
-          instance.events.each { |event|
-            output << "\n  #{event.code}: #{event.description} (not_before: #{event.not_before}, not_after: #{event.not_after})"
+          instances.each { |instance|
+            output << "#{instance.instance_id} (#{instance.availability_zone})"
+            instance.events.each { |event|
+              output << "\n  #{event.code}: #{event.description} (not_before: #{event.not_before}, not_after: #{event.not_after})"
+            }
           }
-        }
-        output << "```"
+          output << "```"
+        end
         output
       end
 
