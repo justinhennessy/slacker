@@ -10,8 +10,6 @@ module Slacker
       end
 
       def datadog(text)
-        #action, build, project, build_number = text.split(" ")
-
         case text
         when "free trials"
           result = number_free_trials
@@ -35,6 +33,9 @@ module Slacker
         series = test[1]['series'].first
 
         total_free_trials = series['pointlist'].last.last
+        SendLog.log.info "Total free trials: #{total_free_trials}"
+
+        total_free_trials
       end
     end
   end
