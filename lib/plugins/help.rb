@@ -4,6 +4,8 @@ module Slacker
   module Plugins
     class HelpPlugin < Plugin
       def ready(robot)
+        SendLog.log.info "Loading help plugin ..."
+
         robot.respond /(help)$/i do |message|
           message << help(message.text)
         end
@@ -12,13 +14,13 @@ module Slacker
       def help(text)
         case text
         when "help"
-          result = help
+          result = show_help
         end
 
         result
       end
 
-      def help
+      def show_help
         output = "```"
 
         output << \

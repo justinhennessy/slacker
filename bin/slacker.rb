@@ -34,6 +34,7 @@ r.plug(Slacker::Plugins::CoinFlipPlugin.new)
 r.plug(Slacker::Plugins::BuildKitePlugin.new)
 r.plug(Slacker::Plugins::AWSPlugin.new)
 r.plug(Slacker::Plugins::DatadogPlugin.new)
+r.plug(Slacker::Plugins::HelpPlugin.new)
 SendLog.log.info "Loaded plugins!"
 SendLog.log.info "Launching ..."
 
