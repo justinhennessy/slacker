@@ -22,9 +22,9 @@ module Slacker
         output = "```"
 
         output << \
-          "Available commands:\n"
+          "Available commands:\n" \
           "@holly show events - currently shows any upcoming events for ec2 instances for staging" \
-          "@holly free trials - shows the number of free trials in rackspace production" \
+          "@holly free trials - shows the number of free trials in rackspace production"
 
         output << "```"
 
