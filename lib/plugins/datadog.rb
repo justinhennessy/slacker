@@ -5,7 +5,7 @@ module Slacker
     class DatadogPlugin < Plugin
       def ready(robot)
         robot.respond /(free trials)/i do |message|
-          message << aws(message.text)
+          message << datadog(message.text)
         end
       end
 
