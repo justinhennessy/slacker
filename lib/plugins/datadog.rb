@@ -35,7 +35,7 @@ module Slacker
         total_free_trials = series['pointlist'].last.last
         SendLog.log.info "Total free trials: #{total_free_trials}"
 
-        total_free_trials
+        total_free_trials.to_i
       end
     end
   end
