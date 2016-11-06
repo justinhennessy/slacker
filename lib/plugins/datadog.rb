@@ -4,14 +4,14 @@ module Slacker
   module Plugins
     class DatadogPlugin < Plugin
       def ready(robot)
-        robot.respond /.*(free trials).*/i do |message|
+        robot.respond /.*(trials).*/i do |message|
           message << datadog(message.text)
         end
       end
 
       def datadog(text)
         case text
-        when /.*(free trials).*/
+        when /.*(trials).*/
           result = number_free_trials
         end
 
