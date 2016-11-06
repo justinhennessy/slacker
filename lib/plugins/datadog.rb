@@ -4,8 +4,8 @@ module Slacker
   module Plugins
     class DatadogPlugin < Plugin
       def ready(robot)
-        Sendlog.log.info robot.respond.inspect
         robot.respond /.*(trials).*/i do |message|
+          Sendlog.log.info robot.respond.inspect
           message << datadog(message.text)
         end
       end
