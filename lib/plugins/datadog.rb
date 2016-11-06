@@ -4,7 +4,7 @@ module Slacker
   module Plugins
     class DatadogPlugin < Plugin
       def ready(robot)
-        robot.respond /(free trials)/i do |message|
+        robot.respond /.*(free trials).*/i do |message|
           message << datadog(message.text)
         end
       end
