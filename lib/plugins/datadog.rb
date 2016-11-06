@@ -11,7 +11,7 @@ module Slacker
 
       def datadog(text)
         case text
-        when "free trials"
+        when /.*(free trials).*/
           result = number_free_trials
         end
 
