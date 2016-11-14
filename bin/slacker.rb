@@ -31,7 +31,7 @@ SendLog.log.info "Loading plugins ..."
 
 # Attach all the plugins
 r.plug(Slacker::Plugins::CoinFlipPlugin.new)
-r.plug(Slacker::Plugins::BuildKitePlugin.new)
+#r.plug(Slacker::Plugins::BuildKitePlugin.new)
 r.plug(Slacker::Plugins::AWSPlugin.new)
 r.plug(Slacker::Plugins::DatadogPlugin.new)
 r.plug(Slacker::Plugins::HelpPlugin.new)
