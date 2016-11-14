@@ -14,8 +14,12 @@ module Slacker
         (name || ENV["NAME"]), [], nil
 
       redis_connection = Redis.new(:host => (ENV["REDIS_HOST"] || "127.0.0.1"),
+                                   :db   => (ENV["REDIS_DB"]   || 15),
                                    :port => (ENV["REDIS_PORT"] || 6739))
+      SendLog.log.info "Initialized redis connection #{redis_connection.inspect}"
       @redis = Redis::Namespace.new(:ns => :slacker, :redis => redis_connection)
+      SendLog.log.info "Setup namespace in redis #{@redis.inspect}"
+      SendLog.log.info "Check redis object #{redis_connection.inspect}"
     end
 
     def respond(regex, &callback)

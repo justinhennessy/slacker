@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
+gem 'logger'
 gem 'activesupport'
 gem 'dotenv'
 gem 'redis'
@@ -13,9 +14,10 @@ gem 'jiralicious'
 gem 'terminal-table'
 gem 'image_suckr'
 gem 's3'
-
-group :test do
-  gem 'rspec'
-end
-
+gem 'artii'
+gem 'aws-sdk'
+gem 'excon'
+gem 'timecop'
 gem 'timerizer'
+gem 'dogapi'
+gem 'buildkit'
