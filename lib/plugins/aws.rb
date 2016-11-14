@@ -4,14 +4,12 @@ module Slacker
   module Plugins
     class AWSPlugin < Plugin
       def ready(robot)
-        robot.respond /(show|events|tainted)/i do |message|
+        robot.respond /aws/i do |message|
           message << aws(message.text)
         end
       end
 
       def aws(text)
-        #action, build, project, build_number = text.split(" ")
-
         case
         when text.match(/show events/)
           result = show_events
