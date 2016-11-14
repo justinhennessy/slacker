@@ -17,8 +17,6 @@ module Slacker
           result = show_events
         when text.match(/show tainted/)
           result = show_tainted
-        else
-          result = cant_find_response
         end
 
         result
