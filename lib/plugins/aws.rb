@@ -47,7 +47,7 @@ module Slacker
         if tainted_instances_detail.empty?
           output = "There are no tainted instances"
         else
-          sorted_instances = tainted_instances_details.sort_by { |k| k["environment"] }
+          sorted_instances = tainted_instances_detail.sort_by { |k| k["environment"] }
 
           output = "```"
 
