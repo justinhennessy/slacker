@@ -9,7 +9,7 @@ module Slacker
         robot.respond /(search|show|list|trigger|rebuild) build/i do |message|
           message << buildkite(message.text)
         end
-        @client = Buildkit.new(token: ENV.fetch('DEPLOYER_BUILDKITE_API_KEY'))
+        @client = Buildkit.new(token: ENV.fetch('BUILDKITE_API_KEY'))
         @organisation = 'neto-ecommerce'
         @pipeline = pipeline
         @options = { "per_page" => 1, "status" => "passed" }
