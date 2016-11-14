@@ -1,18 +1,22 @@
 require 'excon'
 require 'json'
+require 'buildkit'
 
 module Slacker
   module Plugins
     class BuildKitePlugin < Plugin
       def ready(robot)
-        robot.respond /(show|list|trigger|rebuild) build/i do |message|
+        robot.respond /(search|show|list|trigger|rebuild) build/i do |message|
           message << buildkite(message.text)
         end
-        @organisation = "#{ENV.fetch('BUILDKITE_ORGANISATION')}"
+        @client = Buildkit.new(token: ENV.fetch('DEPLOYER_BUILDKITE_API_KEY'))
+        @organisation = 'neto-ecommerce'
+        @pipeline = pipeline
+        @options = { "per_page" => 1, "status" => "passed" }
       end
 
       def buildkite(text)
-        action, build, project, build_number = text.split(" ")
+        action, pipeline, commit_sha = text.split(" ")
 
         case action
         when "list"
@@ -23,9 +27,21 @@ module Slacker
           result = trigger_build(project) if project == "nginx"
         when "rebuild"
           result = trigger_rebuild(project,build_number)
+        when "search"
+          result = search_build(pipeline, commit_sha)
         end
 
         result
+      end
+
+      def search_build(pipeline, commit_sha)
+        options_extra = { "commit" => commit_sha }
+        @options.merge!(options_extra)
+
+        SendLog.log.info "Making buildkite API call ..."
+        build = @client.builds(@organisation, @pipeline, @options)
+        Sendlog.log.info "Completed!"
+        SendLog.log.info "Found build #{build}"
       end
 
       def list_builds(project)
