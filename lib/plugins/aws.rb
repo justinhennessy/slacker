@@ -10,6 +10,7 @@ module Slacker
       end
 
       def aws(text)
+        SendLog.log.info "Inside the aws method"
         case
         when text.match(/show events/)
           result = show_events
