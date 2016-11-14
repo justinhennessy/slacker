@@ -6,7 +6,7 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.4.0)
+    addressable (2.3.8)
     artii (2.1.2)
     aws-sdk (2.6.18)
       aws-sdk-resources (= 2.6.18)
@@ -14,6 +14,8 @@ GEM
       jmespath (~> 1.0)
     aws-sdk-resources (2.6.18)
       aws-sdk-core (= 2.6.18)
+    buildkit (0.4.0)
+      sawyer (~> 0.6.0)
     colorize (0.8.1)
     concurrent-ruby (1.0.2)
     crack (0.1.8)
@@ -46,8 +48,8 @@ GEM
     multipart-post (2.0.0)
     nokogiri (1.5.11)
     oauth (0.5.1)
-    octokit (4.4.1)
-      sawyer (~> 0.7.0, >= 0.5.3)
+    octokit (4.2.0)
+      sawyer (~> 0.6.0, >= 0.5.3)
     proxies (0.2.1)
     rake (11.3.0)
     redis (3.3.1)
@@ -55,8 +57,8 @@ GEM
       redis (~> 3.0, >= 3.0.4)
     s3 (0.3.25)
       proxies (~> 0.2.0)
-    sawyer (0.7.0)
-      addressable (>= 2.3.5, < 2.5)
+    sawyer (0.6.0)
+      addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
     terminal-table (1.7.3)
       unicode-display_width (~> 1.1.1)
@@ -82,6 +84,7 @@ DEPENDENCIES
   activesupport
   artii
   aws-sdk
+  buildkit
   colorize
   dogapi
   dotenv
