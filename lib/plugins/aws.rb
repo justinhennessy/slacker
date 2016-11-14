@@ -30,7 +30,9 @@ module Slacker
 
       def show_tainted
           ec2_client = Aws::EC2::Client.new
+          SendLog.log.info "Making call to AWS API ..."
           instances = ec2_client.describe_instances(filters:[{ name: 'tag:tainted', values: ["true"] }])
+          SendLog.log.info "Completed!"
 
           tainted_instances_detail = []
 
@@ -44,6 +46,7 @@ module Slacker
               tainted_instances_detail.push(tainted_instances)
             }
           }
+        SendLog.log.info "#{tainted_instances_detail.inspect}"
 
         if tainted_instances_detail.empty?
           output = "There are no tainted instances"
