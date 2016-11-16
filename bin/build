@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#docker build -t justinhennessy/holly .
+docker build -t quay.io/everydayhero/holly .
+
+#docker push justinhennessy/holly
+docker push quay.io/everydayhero/holly
