@@ -1,2 +1,6 @@
 .env
 dump.rdb
+.bundle/
+.docker/
+application.log
+vendor/
